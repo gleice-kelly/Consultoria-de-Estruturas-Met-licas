@@ -1,0 +1,54 @@
+/* Estilo básico para o corpo */
+body {
+    background-image: url('https://acomais.com.br/wp-content/uploads/2020/10/estoque-e-produção-1280x640.jpg'); /* Imagem fornecida */
+    background-size: cover; /* Faz com que a imagem ocupe toda a tela */
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Container que centraliza o conteúdo */
+.container {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escurecido para contraste */
+    padding: 20px;
+    margin: 100px auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+/* Estilos para o título */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o formulário */
+form {
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+/* Resultados dos cálculos */
+#results {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
